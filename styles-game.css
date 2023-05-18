@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #272727;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.game-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.player-turn {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.game-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.choice {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #555;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.choice:hover {
+  background-color: #777;
+}
+
+.result {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.result-text {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.scoreboard {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.play-again,
+.back-menu {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #555;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.play-again:hover,
+.back-menu:hover {
+  background-color: #777;
+}

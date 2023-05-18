@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles-game.css">
+  <title>Rock Paper Scissors Lizard Spock - Against Computer</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Rock Paper Scissors Lizard Spock</h1>
+    <div class="game-info">
+      <h2>Against Computer</h2>
+      <p class="player-turn">Player's Turn: <span id="player-turn">Player 1</span></p>
+    </div>
+    <div class="game-container">
+      <button class="choice" onclick="playerChoice('rock')">🪨 Rock</button>
+      <button class="choice" onclick="playerChoice('paper')">📄 Paper</button>
+      <button class="choice" onclick="playerChoice('scissors')">✂️ Scissors</button>
+      <button class="choice" onclick="playerChoice('lizard')">🦎 Lizard</button>
+      <button class="choice" onclick="playerChoice('spock')">🖖 Spock</button>
+    </div>
+    <div class="result">
+      <p><span id="player1-name">Player 1</span> chose <span id="player-choice">-</span></p>
+      <p><span id="computer-name">Computer</span> chose <span id="computer-choice">-</span></p>
+      <h2 class="result-text" id="result-text"></h2>
+    </div>
+    <div class="scoreboard">
+      <p>Score</p>
+      <p><span id="player-score">0</span> - <span id="computer-score">0</span></p>
+    </div>
+    <button class="play-again" id="play-again" onclick="resetGame()">Play Again</button>
+    <button class="back-menu" onclick="backToMenu()">Back to Main Menu</button>
+  </div>
+
+  <script src="game-computer.js"></script>
+</body>
+</html>
