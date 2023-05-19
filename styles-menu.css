@@ -60,3 +60,21 @@ h1 {
 .btn-rules:hover {
   background-color: #777;
 }
+
+.game-rules {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #555;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  text-align: center; /* Align button text in the center */
+  
+  .game-rules:hover {
+  background-color: #777;
+}
