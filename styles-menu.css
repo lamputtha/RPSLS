@@ -61,7 +61,7 @@ h1 {
   background-color: #777;
 }
 
-.game-rules {
+.game-rules-btn {
   width: 200px;
   padding: 10px;
   margin-bottom: 20px;
@@ -75,6 +75,6 @@ h1 {
   text-decoration: none;
   text-align: center; /* Align button text in the center */
   
-  .game-rules:hover {
+  .game-rules-btn:hover {
   background-color: #777;
 }
