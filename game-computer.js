@@ -46,7 +46,7 @@ function displayChoices(playerChoice, computerChoice) {
 function getEmoji(choice) {
   switch (choice) {
     case "rock":
-      return "🪨";
+      return "✊";
     case "paper":
       return "📄";
     case "scissors":
