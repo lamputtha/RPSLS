@@ -26,7 +26,7 @@ h1 {
   justify-content: center;
 }
 
-.btn .game-rules {
+.btn {
   width: 200px;
   padding: 10px;
   margin-bottom: 20px;
@@ -41,7 +41,7 @@ h1 {
   text-align: center; /* Align button text in the center */
 }
 
-.btn:hover .game-rules:hover {
+.btn:hover {
   background-color: #777;
 }
 
