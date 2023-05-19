@@ -74,6 +74,7 @@ h1 {
   transition: background-color 0.3s ease;
   text-decoration: none;
   text-align: center; /* Align button text in the center */
+  }
   
   .game-rules-btn:hover {
   background-color: #777;
