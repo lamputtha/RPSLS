@@ -103,5 +103,5 @@ function resetGame() {
 
 // Function to go back to the main menu
 function backToMenu() {
-  location.href = "menu.html";
+  location.href = "index.html";
 }
