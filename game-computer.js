@@ -1,6 +1,6 @@
 // Constants for the game choices
 const choices = [
-  { name: "rock", emoji: "🪨" },
+  { name: "rock", emoji: "✊" },
   { name: "paper", emoji: "📄" },
   { name: "scissors", emoji: "✂️" },
   { name: "lizard", emoji: "🦎" },
