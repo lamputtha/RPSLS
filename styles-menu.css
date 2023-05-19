@@ -79,3 +79,8 @@ h1 {
   .game-rules:hover {
   background-color: #777;
 }
+
+ .game-rules-container {
+  align-items: center;
+  justify-content: center;
+}
